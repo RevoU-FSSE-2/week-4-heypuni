@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Dog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="mobile">
+            <img class="hamburger-menu" src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg" alt="hamburger-menu">
+        </span>
+        <span class="navbar-logo">
+            <img src="images/logo.png" alt="logo">
+            <a href="#" class="text-logo">Match Dog</a>
+        </span>
+
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section id="intro">
+            <div class="intro-animation">
+                <h1>How to take care of your <br>smart dogs</h1>
+                <p class="description">
+                Be a proud dog parent when you've successfully potty-trained your beloved puppy.
+                </p>
+            </div>
+       </section>
+
+        <h2>Any type of <em>dog-mate</em> for you</h2>
+        <section class="grid-section">
+            <div class="left-grid">
+                <img src="images/image1.jpg" alt="two sleepy dogs">
+            </div>
+
+            <div class="right-grid">
+                <img id="img-one" src="images/image2.jpg" alt="pom running around">
+                <img id="img-two" src="images/image3.jpg" alt="bulldog staring at you">
+                <img id="img-three" src="images/image4.jpg" alt="fierce husky gaze">
+            </div>
+        </section>
+    </header>
+
+
+        <main>
+            <article>
+                <h2>Choose your ideal companion</h2>
+                <p class="description">Will you choose the curious corgy, lazy bulldogs, or the fierce husky? The key is in your personality! 
+                </p>
+            
+                <section id="types">
+                    <div class="dog-types">
+                        <img src="images/corgy.png" alt="adorable smiling corgy">
+                        <p>Play chase and be active with you</p>
+                    </div>
+                    <div class="dog-types">
+                        <img src="images/bulldog.png" alt="standing bulldog">
+                        <p>Netflix and chill along with you</p>
+                    </div>
+                    <div class="dog-types">
+                        <img src="images/husky.png" alt="husky in the wild">
+                        <p>Ready to protect you in times of need</p>
+                    </div>
+                </section>
+            </article>
+
+            <section id="testimonial">
+                <h2>What They Say</h2>
+                <div class="testi-container">
+                    <picture class="testi-img-container1">
+                        <source media="(max-width:992px)" srcset="images/testimonial1-mobile.png"/>
+                        <img src="images/testimonial2.png" alt="a woman smiling at a dog" />
+                        <h3>"I used to be so lonely, but with Match Dog's help, I have found the love of my life. I think."</h3>
+                        <em>- Ambyar, Indonesia</em>
+                    </picture>
+                    <picture class="testi-img-container2">
+                        <source media="(max-width:992px)" srcset="images/testimonial2-mobile.png"/>
+                        <img src="images/testimonial1.png" alt="a woman playing with her a dog" />
+                        <h3>"They're absolutely adorable! I'm getting my second one soon"</h3>
+                        <em>- Untung, Indonesia</em>
+                    </picture>
+                </div>
+            </section>
+
+
+            <section id="video">
+                 <h2>Ready to meet your new mate?</h2>
+                 <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/YQDDm9HLkV4" frameborder="0" allowfullscreen ></iframe>
+                </div>
+            </section>
+
+            <section id="form-section">
+                <form>
+                  <h2>Give me my <i>dog-mate</i> now!</h2>
+                    <fieldset>
+                        <legend>Personal Data:</legend>
+                        <div>
+                        <label for="fullname">Full Name:</label><br>
+                        <input
+                            type="text"
+                            id="input-name"
+                            name="fullname"
+                            placeholder="Your Name"
+                            required
+                        />
+                        </div>
+        
+                        <div>
+                        <label for="email">Email:</label><br>
+                        <input
+                            type="email"
+                            id="input-email"
+                            name="input-email"
+                            placeholder="Your Email"
+                            required
+                        />
+                        </div>
+                        
+                        <div>
+                            <label for="birthday">Date of Birth:</label><br>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+
+
+                        <div>
+                        <p>Are you living in Indonesia?</p>
+                        <input 
+                            type="radio"
+                            name="domicile"
+                            id="domicile_yes"
+                            value="domicile"
+                        /> 
+                        <label for="domicile_yes">Yes</label>
+                        
+                        <input 
+                            type="radio"
+                            name="domicile"
+                            id="domicile_no"
+                            value="domicile"
+                        /> 
+                        <label for="domicile_no">No</label>
+                        </div>
+
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Additional Information:</legend>
+                        <div>
+                        <p>What do you think about adopting instead of buying dogs?</p>
+                        <input
+                            type="checkbox"
+                            id="checkbox_cutie"
+                            name="checkbox_cutie"
+                            value="checkbox_cutie"
+                        />
+                        <label for="checkbox_cutie">Definitely will adopt</label>
+        
+                        <input
+                            type="checkbox"
+                            id="checkbox_scary"
+                            name="checkbox_scary"
+                            value="checkbox_scary"
+                        />
+                        <label for="checkbox_scary">Nah, I prefer to buy</label>
+        
+                        <input
+                            type="checkbox"
+                            id="checkbox_want"
+                            name="checkbox_want"
+                            value="checkbox_want"
+                        />
+                        <label for="checkbox_want">I'm unclear</label>
+                        </div>
+
+                        <div id="fav-color">
+                            <label for="favcolor">Select your favorite color:</label><br>
+                            <input type="color" id="favcolor" name="favcolor" value="#884A39">
+                        </div>
+
+
+                        <div id="textarea">
+                            <label for="textarea_dogs">Tell us your personality and ideal dog type!</label><br>
+                            <textarea
+                            id="textarea_dogs" name="textarea_dogs" cols="70%" rows="5">
+                            </textarea>
+                        </div>
+        
+                        <div>
+                            <label for="dog_pic">Upload your favorite dog-mate picture</label><br><br>
+                            <input type="file" id="dog_pic" name="dog_pic" accept="image/png, image/jpeg">
+                        </div>
+                        
+                        <br>
+                    </fieldset>
+        
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>   
+                    
+                </form>
+            </section>
+
+    </main>
+
+</body>
+
+
+<footer>
+    <p>2023. Created by Gabby Evalin</p>
+</footer>
+</html>
