@@ -3,7 +3,7 @@
 
 A website specially dedicated to all dog lovers who want to adopt a dog, or two. Here, you will find a collection of adorable photos of dogs, be able to know your type of dog-mate some testimonials, and cute videos. Last but not least, fill the sign-up form to snatch one of our lovely dogs to your home now! Featuring photo collection, testimonials, cute videos, and a registration form, feel free to explore!
 
-Go to [matchdog.site](matchdog.site) now, or check out the deployment process below.
+Go to [matchdog.site](https://matchdog.site) now, or check out the deployment process below.
 
 # Development Process
 
