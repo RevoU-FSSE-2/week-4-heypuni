@@ -94,8 +94,10 @@ In this documentation, you will be guided through the process of creating a new 
     ```
 7. Use **git status** to check the modified files and git diff to view the specific changes. Once satisfied, use **git add .** to stage the changes and **git commit -m "Commit message"** to commit them.
 8. Push the changes to your github repository **git push origin branch-name**.
-9. Go to the original repository's GitHub page and click on the "New Pull Request" button. 
+9. Go to the original repository's GitHub page and click on the "Compare & Pull Request" button. 
+![PullRequest3](images/pullreq3.png)
 10. The repository owner or reviewers will review your pull request. They may suggest changes or ask for more information. Once approved, they will merge your changes into the main branch.
+
 
 ## Merge
 1. Ensure that the pull request contains the desired changes and that there are no conflicts.
